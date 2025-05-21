@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# General
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# HTML, CSS, JS specific (if any, often covered by Node.js section)
+# Add any project specific build outputs or temporary files here
+
+# CSS Source Maps
+*.css.map
