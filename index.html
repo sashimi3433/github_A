@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@4.0.1/destyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="stylesheet" href="./static/css/style.css">
     <link rel="stylesheet" href="./static/css/index.css">
 </head>
@@ -27,8 +28,19 @@
         </div>
     </header>
 
-    <main>
-
+    <main class="index">
+        <section class="splide" aria-label="各種情報のカルーセル">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">aaa</li>
+                    <li class="splide__slide">bbb</li>
+                    <li class="splide__slide">ccc</li>
+                    <li class="splide__slide">aaa</li>
+                    <li class="splide__slide">bbb</li>
+                    <li class="splide__slide">ccc</li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -37,7 +49,9 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="./static/js/main.js"></script>
+    <script src="./static/js/index.js"></script>
 </body>
 
 </html>
